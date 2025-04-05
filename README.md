@@ -795,7 +795,7 @@ Le script commencera à travailler sur le contenu du dossier du jeu en effectuan
 
 - BINARY
   - PSX_PAL
-    - SCENA17.1.bin (**à éditer avec un éditeur hexagonal, contient les crédits**)
+    - SCENA17.1.bin (**à éditer avec un éditeur hexadécimal, contient les crédits**)
 - DUMP
   - PSX_PAL
     - BINARY
