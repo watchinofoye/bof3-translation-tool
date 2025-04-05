@@ -2,32 +2,32 @@ Font:
 ETC/ENDKANJI/ENDKANJI.1.bin - ENDKANJI.1.bin.4b.128w.128x32.256r
 ETC/FIRST/FIRST.4.bin - FIRST.4.bin.4b.128w.128x32.256r
 
-Font titoli di coda:
+Police du générique de fin:
 SCENARIO/SCENA17/SCENA17.3.bin - SCENA17.3.bin.4b.128w.128x32.256r
 
-Grafica GAME OVER:
+Graphismes GAME OVER:
 BATTLE/BATL_OVR/BATL_OVR.2.bin - BATL_OVR.2.bin.8b.64w.64x32.256r
 
-Grafica Loading:
+Graphismes Loading:
 ETC/LOAD/LOAD.1.bin - LOAD.1.bin.4b.128w.128x32.256r
 
-Grafica NEW GAME/LOAD Game:
+Graphismes NEW GAME/LOAD Game:
 ETC/START/START.6.bin - START.6.bin.4b.128w.128x32.256r
 
-Grafica OK?:
+Graphismes OK?:
 BATTLE/BATL_DRA/BATL_DRA.1.bin - BATL_DRA.1.bin.8b.64w.64x32.128r
 
-Grafica PRESS START:
+Graphismes PRESS START:
 ETC/DEMO/DEMO.6.bin - DEMO.6.bin.8b.64w.64x32.256r
 
-Grafica PSP:
+Graphismes PSP:
 /ETC/FIRST/FIRST.5.bin - FIRST.5.bin.4b.128w.128x32.256r
 /ETC/FIRST/FIRST.6.bin - FIRST.6.bin.4b.128w.128x32.256r
 /ETC/TURIMODE/TURIMODE.4.bin - TURIMODE.4.bin.8b.64w.64x32.1024r
 /ETC/TURIMODE/TURISHAR.2.bin - TURISHAR.2.bin.8b.64w.64x32.256r
 /ETC/TURIMODE/TURISHAR.3.bin - TURISHAR.3.bin.8b.64w.64x32.256r
 
-Grafica varia:
+Graphismes varia:
 BMAGIC/MAGIC008/MAGIC008.2.bin - MAGIC008.2.bin.4b.128w.128x32.256r
 BMAGIC/MAGIC013/MAGIC013.5.bin - MAGIC013.5.bin.4b.128w.128x32.256r
 BMAGIC/MAGIC038/MAGIC038.8.bin - MAGIC038.8.bin.4b.128w.128x32.256r
@@ -186,7 +186,7 @@ WORLD00/AREA030/AREA030.5.bin
 WORLD02/AREA089/AREA089.5.bin
 WORLD03/AREA129/AREA129.5.bin
 
-Nomi mostri/personaggi:
+Noms des monstres/personnages:
 ETC/COMMU00/COMMU00.1.bin
 ETC/COMMU05/COMMU05.8.bin
 WORLD00/AREA002/AREA002.14.bin
@@ -269,7 +269,7 @@ WORLD04/AREA196/AREA196.11.bin
 WORLD04/AREA197/AREA197.11.bin
 WORLD04/AREA198/AREA198.11.bin
 
-Testo Singolo (80010000 o 00010000):
+Texte unique (80010000 ou 00010000):
 WORLD00/AREA000/AREA000.12.bin
 WORLD00/AREA001/AREA001.12.bin
 WORLD00/AREA002/AREA002.8.bin
@@ -438,7 +438,7 @@ WORLD04/AREA197/AREA197.12.bin
 WORLD04/AREA198/AREA198.12.bin
 WORLD04/AREA199/AREA199.12.bin
 
-Testo Doppio (8001A000 o 0001A000):
+Texte Double (8001A000 ou 0001A000):
 BATTLE/BATTLE/BATTLE.12.bin
 BATTLE/BATTLE2/BATTLE2.12.bin
 BOSS/BOSS001/BOSS001.9.bin
@@ -484,10 +484,10 @@ BOSS/BOSS055/BOSS055.12.bin
 ETC/AFLDKWA/AFLDKWA.1.bin
 ETC/FIRST/FIRST.12.bin
 
-Titoli di coda:
+Crédits de fin:
 SCENARIO/SCENA17/SCENA17.1.bin
 
-File non identificati ma modificati nella versione francese:
+Fichiers non identifiés mais modifiés dans la version française:
 BATTLE/BATL_END/BATL_END.1.bin
 BMAGIC/MAGIC062/MAGIC062.4.bin
 BMAGIC/MAGIC065/MAGIC065.1.bin
@@ -550,7 +550,7 @@ WORLD04/AREA199/AREA199.14.bin
 
 ---
 
-Estrazione Raw Dump:
+Extraction Raw Dump:
 
 [BOF3 PSX PAL]
 
@@ -903,7 +903,7 @@ python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2D6D05 --quan
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2D6D0B --quantity 3 --repeat 1 --trim
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2D6D10 --quantity 4 --repeat 1 --trim
 
-# Nomi personaggi
+# Noms personnages
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2DDCC8 --quantity 5 --skip 159 --repeat 8 --trim
 
 # ITEM WEAPON ARMOR OPTION VITAL
@@ -913,7 +913,7 @@ python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2DF214 --quan
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2DF21A --quantity 6 --repeat 1 --trim
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2DF221 --quantity 5 --repeat 1 --trim
 
-# Pesca
+# Pêche
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2DF6E8 --quantity 10 --repeat 1 --trim
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2DF6F3 --quantity 17 --repeat 1 --trim
 python bof3tool.py rawdump -i BOOT.BIN -o BOOT.BIN.json --offset 0x2DF705 --quantity 15 --repeat 1 --trim
